@@ -1,0 +1,20 @@
+{
+  "name": "downbot",
+  "version": "1.0.0",
+  "description": "Telegram bot to download videos from TikTok, Instagram, and YouTube",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["telegram", "bot", "downloader", "tiktok", "instagram", "youtube"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.17.0",
+    "cheerio": "^1.2.0",
+    "node-telegram-bot-api": "^0.67.0",
+    "ytdl-core": "^4.11.5"
+  }
+}
